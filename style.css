@@ -1,0 +1,195 @@
+/* CONFIG ALL */
+body {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  height: 936px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: -.05ch;
+}
+
+* {
+  /* border: solid 1px; */
+}
+
+/* MAIN */
+main {
+  height: calc(100% - 100px);
+}
+
+.main-section {
+  width: 1456px;
+  height: 100%;
+}
+
+/* NAVBAR */
+.nav-bar {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-bar {
+  background-image: linear-gradient(#777, #666 50%, #888 50%, #999);
+  height: 36px;
+  width: 980px;
+  border-radius: 5px;
+  border: outset 1px #aaa;
+  box-shadow: 1px 2px 2px rgba(119, 119, 119, 0.5);
+  display: flex;
+  align-content: stretch;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-items div {
+  width: 102px;
+  border-right: solid 1px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+}
+
+.nav-bar-items div:hover {
+  background-color: rgba(51, 51, 51, 0.4);
+  cursor: pointer;
+}
+
+.apple-logo {
+  height: 16px;
+  width: 16px;
+}
+
+.search-bar {
+  text-align: center;
+  margin: auto;
+}
+
+.search-form {
+  background-color: rgba(49, 49, 49, 0.150);
+  box-shadow: inset 0 3px rgba(51, 51, 51, 0.575);
+  border-radius: 12px;
+  height: 24px;
+  width: 116px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-form:hover {
+  cursor: text;
+}
+
+.magnifier {
+  fill: white;
+  margin-left: 3px;
+}
+
+/* CONTENT */
+.top-container {
+  background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  height: 75%;
+  background-size: 100%;
+  border: solid 1px white;
+  border-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  position: relative;
+}
+
+.bottom-container {
+  display: grid;
+  grid-template-columns: repeat(4, 364px);
+  height: 200px;
+}
+
+.description div {
+  font-weight: 1;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.description1 {
+  font-size: 34px;
+}
+
+.bottom-container div {
+  border: solid 1px white;
+}
+
+.bottom1 {
+  background: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+}
+
+.bottom2 {
+  background: url(https://web.archive.org/web/20140301004350im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+}
+
+.bottom3 {
+  background: url(https://web.archive.org/web/20140301004351im_/http://images.apple.com/home/images/promo_30_years.jpg);
+}
+
+.bottom4 {
+  background: url(https://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+}
+
+/* FOOTER */
+footer {
+  position: relative;
+  height: auto;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 1000px;
+  color: #777;
+}
+
+.footer-container {
+  padding: 8px;
+  font-size: 10px;
+}
+
+.footer-container span {
+  color: #08c;
+}
+
+.footer-container span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-container2 span {
+  border-right: solid 1px rgba(180, 180, 180, .5);
+  padding: 1px 6px;
+}
+
+.footer-container3:first-child {
+  border-right: solid 1px rgba(180, 180, 180, .5);
+}
+
+.usa-flag {
+  position: absolute;
+  margin-top: -2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
